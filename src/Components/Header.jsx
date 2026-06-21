@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="flex items-center justify-between px-8 py-4 bg-white border-b border-gray-200">
+    <header className="flex items-center justify-between px-8 py-4 bg-blue-500 border-b border-black-200">
 
       {/* Logo */}
       <div className="text-5xl font-bold text-yellow-400">
@@ -22,7 +22,7 @@ const Header = () => {
         <input
           type="text"
           placeholder='Search "chocolate"'
-          className="w-full px-5 py-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="w-full px-5 py-4 bg-white border border-black-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500"
         />
       </div>
 
@@ -32,7 +32,7 @@ const Header = () => {
       </button>
 
       {/* Cart */}
-      <button className="bg-gray-200 text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2">
+      <button className="bg-black text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2">
         My Cart
       </button>
 
